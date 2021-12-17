@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="336dp"
+        android:contentDescription="@string/IB"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btn_iniciar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="137dp"
+        android:onClick="iniciar"
+        android:text="@string/Iniciar"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/IBconfi"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="359dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="-4dp"
+        android:background="@drawable/fondoet"
+        android:contentDescription="@string/IB"
+        app:srcCompat="@drawable/ajustes"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/txt_nombre"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="232dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+</RelativeLayout>

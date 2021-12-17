@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout-land/activity_animales.xml" value="0.33" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout-land/activity_matematicas.xml" value="0.33" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout-land/activity_niveles.xml" value="0.25" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout/activity_abecedario.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout/activity_animales.xml" value="0.25" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout/activity_colores.xml" value="0.25" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout/activity_matematicas.xml" value="0.25" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout/activity_niveles.xml" value="0.25" />
+        <entry key="..\:/Users/patyb/AndroidStudioProjects/MiAprendizaje/app/src/main/res/layout/activity_perfil.xml" value="0.67" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abecedario">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="100dp">
+        //fila1
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn00"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                android:contentDescription="@string/IB"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn01"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn02"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="2"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn03"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="3"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+        </TableRow>
+
+        //fila2
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn04"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn05"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn06"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="2"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn07"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="3"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+        </TableRow>
+
+        //fila3
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn08"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn09"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn10"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="2"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn11"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="3"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+        </TableRow>
+
+        //fila4
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn12"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn13"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn14"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="2"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn15"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="3"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_reiniciar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnreiniciar"></Button>
+
+            <Button
+                android:id="@+id/btn_salir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnsalir"></Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/txt_puntuacion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textSize="25dp"></TextView>
+
+        </LinearLayout>
+
+    </TableLayout>
+</LinearLayout>
